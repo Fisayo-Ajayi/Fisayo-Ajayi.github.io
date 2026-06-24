@@ -1,8 +1,3 @@
----
-layout: default
-title: Fisayo Ajayi | Data Analytics Portfolio
----
-
 # Fisayo Ajayi
 ### **Data Analyst & Analytics Engineer**
 📍 Lagos, Nigeria | [🔗 Connect on LinkedIn](https://linkedin.com) | [📥 Download Executive Resume (PDF)](./Fisayo_Olawale_Ajayi_Data_Analyst_Resume.PDF)
