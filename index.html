@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisayo Ajayi | Data Analytics Portfolio</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f3f4f6; color: #1f2937; line-height: 1.6; margin: 0; padding: 40px 20px; }
+        .portfolio-container { background-color: #ffffff; max-width: 850px; margin: 0 auto; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03); }
+        header { border-bottom: 2px solid #e5e7eb; padding-bottom: 24px; margin-bottom: 32px; }
+        h1 { font-size: 36px; font-weight: 800; color: #111827; margin: 0 0 8px 0; letter-spacing: -0.025em; }
+        h2 { font-size: 22px; font-weight: 700; color: #111827; margin: 40px 0 20px 0; padding-left: 12px; border-left: 4px solid #2563eb; text-transform: uppercase; letter-spacing: 0.05em; }
+        h3 { font-size: 18px; font-weight: 700; color: #111827; margin: 0; }
+        h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; color: #6b7280; margin: 20px 0 12px 0; letter-spacing: 0.05em; }
+        a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+        .subtitle { font-size: 18px; font-weight: 600; color: #2563eb; margin: 0 0 16px 0; }
+        .meta-info { font-size: 14px; color: #6b7280; margin: 0 0 16px 0; }
+        .summary-text { font-size: 15px; color: #4b5563; margin: 0; }
+        .project-card { margin-bottom: 40px; background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; }
+        .project-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; flex-wrap: wrap; gap: 10px; }
+        .project-description { font-size: 14px; color: #4b5563; margin: 0 0 16px 0; }
+        .tech-tag { font-size: 13px; color: #111827; background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 6px; padding: 10px 14px; margin-bottom: 20px; }
+        .dashboard-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 16px; }
+        .dashboard-img { width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }
+        .toolkit-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; font-size: 14px; margin-bottom: 20px; }
+        .toolkit-card { background-color: #f9fafb; padding: 14px; border-radius: 8px; border: 1px solid #e5e7eb; }
+        .toolkit-title { color: #111827; display: block; font-weight: 700; margin-bottom: 4px; }
+        form { background-color: #f9fafb; padding: 24px; border-radius: 12px; border: 1px solid #e5e7eb; }
+        .form-group { margin-bottom: 16px; }
+        .form-label { display: block; font-size: 11px; font-weight: 700; margin-bottom: 6px; text-transform: uppercase; color: #4b5563; letter-spacing: 0.05em; }
+        input[type="text"], input[type="email"], textarea { width: 100%; padding: 10px 12px; background-color: #ffffff; color: #1f2937; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; box-sizing: border-box; font-family: inherit; }
+        textarea { height: 100px; resize: none; line-height: 1.5; }
+        input:focus, textarea:focus { outline: none; border-color: #2563eb; }
+        button { padding: 12px 24px; background-color: #2563eb; color: #ffffff; border: none; border-radius: 6px; cursor: pointer; font-weight: 700; width: 100%; font-size: 14px; transition: background-color 0.15s ease; }
+        button:hover { background-color: #1d4ed8; }
+    </style>
+</head>
+<body>
+
+<div class="portfolio-container">
+
+    <!-- 🚀 Header Section -->
+    <header>
+        <h1>Fisayo Ajayi</h1>
+        <div class="subtitle">Data Analyst & Analytics Engineer</div>
+        <div class="meta-info">
+            📍 Lagos, Nigeria &nbsp;|&nbsp; 
+            🔗 <a href="https://linkedin.com" target="_blank">LinkedIn</a> &nbsp;|&nbsp; 
+            📥 <a href="./Fisayo_Olawale_Ajayi_Data_Analyst_Resume.PDF" download>Download Resume (PDF)</a>
+        </div>
+        <p class="summary-text">
+            Results-driven Data Analyst specializing in end-to-end analytics engineering, predictive modeling, and business intelligence. Expert in balancing highly skewed risk datasets and building high-impact dashboards.
+        </p>
+    </header>
+
+    <!-- 📊 Projects Area -->
+    <main>
+        <h2>Featured Analytics Projects</h2>
+
+        <!-- Project 1 -->
+        <section class="project-card">
+            <div class="project-header">
+                <h3>1. Sales Performance & Customer Analytics</h3>
+                <a href="https://github.com" target="_blank">View Repository ↗</a>
+            </div>
+            <p class="project-description">
+                Built an enterprise relational database schema tracking cross-channel transactions and multi-region margins. Transformed raw backend tables into dynamic dashboards to optimize ad spend and forecast customer lifetime value (LTV).
+            </p>
+            <div class="tech-tag">
+                <strong>Core Stack Deployed:</strong> Python, Linear Regression, Microsoft Power BI, Star-Schema Modeling
+            </div>
+            <h4>🖥️ Dashboard Layouts</h4>
+            <div class="dashboard-grid">
+                <img src="./overview.png" class="dashboard-img" alt="Sales Performance Overview Dashboard">
+                <img src="./insights.png" class="dashboard-img" alt="Product and Customer Insights Dashboard">
+            </div>
+        </section>
+
+        <!-- Project 2 -->
+        <section class="project-card">
+            <div class="project-header">
+                <h3>2. Financial Risk & Class-Imbalance Fraud Core</h3>
+                <div style="display: flex; gap: 12px;">
+                    <a href="https://github.com" target="_blank">Fraud Repo ↗</a>
+                    <a href="https://github.com" target="_blank">Credit Repo ↗</a>
+                </div>
+            </div>
+            <p class="project-description">
+                Engineered robust predictive pipelines optimized specifically for severe class distribution skew (fraud cases representing less than 1% of transactions). Prioritized Precision-Recall AUC and F1-Scores over misleading standard accuracy metrics to catch threats safely without introducing customer friction.
+            </p>
+            <div class="tech-tag">
+                <strong>Core Stack Deployed:</strong> Python (Pandas, Scikit-Learn), Supervised Classification, Advanced Resampling
+            </div>
+        </section>
+
+        <!-- Project 3 -->
+        <section class="project-card">
+            <div class="project-header">
+                <h3>3. Logistics Fleet & Constrained Route Optimization</h3>
+                <a href="https://github.com" target="_blank">View Repository ↗</a>
+            </div>
+            <p class="project-description">
+                Formulated an operational route planner to resolve last-mile supply chain overlaps. Deployed models tracking multi-tiered vehicle variable constraints simultaneously—including load volume limits, strict arrival windows, and spatial coordinate weights—to reduce overall fleet transit expenses.
+            </p>
+            <div class="tech-tag">
+                <strong>Core Stack Deployed:</strong> Python (SciPy, NumPy), Operations Research, Spatial Variables Translation
+            </div>
+        </section>
+    </main>
+
+    <!-- 🛠️ Technical Toolkit Section -->
+    <h2>Technical Toolkit</h2>
+    <div class="toolkit-grid">
+        <div class="toolkit-card">
+            <span class="toolkit-title">Languages & Scripts</span> SQL, Python (Pandas, NumPy)
+        </div>
+        <div class="toolkit-card">
+            <span class="toolkit-title">Analytics Skillset</span> Risk Modeling, Operations Research
+        </div>
+        <div class="toolkit-card">
+            <span class="toolkit-title">Business Intelligence</span> Power BI, Tableau, NovyPro
+        </div>
+    </div>
+    <p style="font-size: 14px; color: #6b7280; margin: 0 0 40px 0;">
+        🔬 <strong>Interdisciplinary Pipeline:</strong> <a href="https://github.com" target="_blank">Cancer Risk Biomarker Analysis Core ↗</a>
+    </p>
+
+    <!-- ✉️ Contact Portal -->
+    <section id="contact">
+        <h2>Contact Connection Pipeline</h2>
+        <p style="font-size: 14px; color: #6b7280; margin: 0 0 20px 0;">Submit project requirements or technical analytics opportunities directly to my inbox.</p>
+        
+        <form action="https://web3forms.com" method="POST">
+            <input type="hidden" name="access_key" value="fbbe4a79-bf79-48ae-b3d0-a1684e8e3d45">
+            <div class="form-group">
+                <label class="form-label">Full Name / Corporate Entity</label>
+                <input type="text" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" name="email" placeholder="johndoe@company.com" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Project Description</label>
+                <textarea name="message" placeholder="Provide details on analytical requirements or role parameters..." required></textarea>
+            </div>
+            <button type="submit">Dispatch Message Connection</button>
+        </form>
+    </section>
+
+</div>
+
+</body>
+</html>
