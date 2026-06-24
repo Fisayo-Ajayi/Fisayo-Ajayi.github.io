@@ -19,7 +19,6 @@ Data Analyst specializing in turning raw enterprise data into actionable busines
 *   **Business Impact:** Empowers leadership with forward-looking revenue forecasts to back high-growth marketing decisions.
 
 #### 📊 Dashboard Views:
-#### 📊 Dashboard Views:
 <img src="https://github.io" width="100%" alt="Sales Overview Dashboard">
 
 <img src="https://github.io" width="100%" alt="Customer Insights Dashboard">
