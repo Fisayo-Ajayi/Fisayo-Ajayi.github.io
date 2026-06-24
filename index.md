@@ -1,5 +1,8 @@
 ---
-title: Fisayo Ajayi Portfolio
+
+---
+layout: default
+title: Home
 ---
 # Hi, I'm Fisayo Ajayi | Data Analyst & Analytics Engineer
 📍 Lagos, Nigeria | [🔗 LinkedIn](.linkedin.com/in/fisayo-ajayi-144b01237) | [✉️ Email](fisayobanjiajayi@example.com)
