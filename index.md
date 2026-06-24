@@ -1,84 +1,129 @@
-# Hi, I'm Fisayo Ajayi | Data Analyst & Analytics Engineer
-📍 Lagos, Nigeria | [🔗 LinkedIn](.linkedin.com/in/fisayo-ajayi-144b01237) | [✉️ Email](fisayobanjiajayi@example.com)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisayo Ajayi | Data Analyst & Engineer</title>
+    <!-- Modern Tailwind UI Script -->
+    <script src="https://tailwindcss.com"></script>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0b0f19; color: #f3f4f6; }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-500 selection:text-white">
 
-![Python](https://shields.io)
-![SQL](https://shields.io)
-![PowerBI](https://shields.io)
-![Git](https://shields.io)
+    <!-- 🌐 Premium Navigation / Header Header -->
+    <header class="max-w-5xl mx-auto px-6 pt-12 pb-8 border-b border-gray-800">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+                <h1 class="text-4xl font-extrabold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500">Fisayo Ajayi</h1>
+                <p class="text-lg mt-2 text-gray-400 font-medium">Data Analyst & Analytics Engineer</p>
+                <p class="text-sm text-gray-500 mt-1">📍 Lagos, Nigeria</p>
+            </div>
+            <div class="flex flex-wrap gap-3">
+                <a href="YOUR_LINKEDIN_URL" class="px-4 py-2 text-sm bg-gray-900 border border-gray-800 text-gray-300 rounded-lg hover:bg-gray-800 hover:text-white transition">🔗 LinkedIn</a>
+                <a href="#contact" class="px-4 py-2 text-sm bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-500 transition shadow-lg shadow-blue-900/40">✉️ Contact Me</a>
+            </div>
+        </div>
+        
+        <!-- 🏷️ Automated Tech Badges -->
+        <div class="flex flex-wrap gap-2 mt-6">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-900/30 text-blue-400 border border-blue-800/50">Python</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-900/30 text-indigo-400 border border-indigo-800/50">SQL</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-yellow-900/20 text-yellow-500 border border-yellow-800/30">Power BI</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-900/30 text-emerald-400 border border-emerald-800/50">Scikit-Learn</span>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-purple-900/30 text-purple-400 border border-purple-800/50">Predictive Modeling</span>
+        </div>
+    </header>
 
-## 📄 Professional Resume
+    <!-- 📄 Interactive Resume Document Viewer Section -->
+    <section class="max-w-5xl mx-auto px-6 py-8">
+        <h2 class="text-xl font-bold text-white mb-4 border-l-4 border-indigo-500 pl-3">Professional Resume</h2>
+        <div class="rounded-2xl overflow-hidden border border-gray-800 bg-gray-900/20 p-2">
+            <!-- Ensure your PDF is uploaded into your repository root folder with the name resume.pdf -->
+            <object data="/resume.pdf" type="application/pdf" width="100%" height="500px" class="rounded-xl">
+                <div class="p-6 text-center text-gray-400">
+                    <p class="mb-4">Your browser does not support embedded PDF views natively.</p>
+                    <a href="/resume.pdf" class="inline-block px-5 py-2.5 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition">📥 Download Resume PDF</a>
+                </div>
+            </object>
+        </div>
+    </section>
 
-<p align="center">
-  <a href="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf" target="_blank" style="background-color: #0076db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px;">
-    🔓 Click Here to Open Resume in New Tab
-  </a>
-</p>
+    <!-- 📋 Core Work Section -->
+    <main class="max-w-5xl mx-auto px-6 py-8">
+        <h2 class="text-2xl font-bold text-white mb-8 border-l-4 border-blue-500 pl-3">Advanced Analytics Suites</h2>
 
-<object data="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf" type="application/pdf" width="100%" height="800px">
-  <p align="center">Mobile browser detected. Please use the button above to view and download my professional resume.</p>
-</object>
+        <div class="grid grid-cols-1 gap-12">
 
+            <!-- Card 1: Power BI Business Showcase -->
+            <div class="bg-gray-900/40 border border-gray-800/80 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-yellow-500 bg-yellow-900/20 px-2.5 py-1 rounded">Business Intelligence</span>
+                    <a href="https://github.com" target="_blank" class="text-xs text-blue-400 hover:underline">View Repository ↗</a>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Sales Performance & Executive Revenue Analytics</h3>
+                <p class="text-gray-400 mt-2 leading-relaxed">Engineered a relational enterprise database structure to evaluate cross-channel sales behavior and map multi-region profit margins. Translated raw tables into high-end executive reporting sheets to eliminate data tracking delays.</p>
+                
+                <!-- Dashboard Imagery Flex Grid -->
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="rounded-xl overflow-hidden border border-gray-800">
+                        <img src="https://postimg.cc" class="w-full object-cover hover:scale-105 transition duration-300" alt="Sales Overview">
+                    </div>
+                    <div class="rounded-xl overflow-hidden border border-gray-800">
+                        <img src="https://postimg.cc" class="w-full object-cover hover:scale-105 transition duration-300" alt="Customer Insights">
+                    </div>
+                </div>
+            </div>
 
-Data Analyst specializing in turning raw enterprise data into actionable business revenue. Expert at building predictive risk engines, handling complex class imbalances, and optimizing fleet logistics.
+            <!-- Card 2: Risk Analytics -->
+            <div class="bg-gray-900/40 border border-gray-800/80 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-blue-400 bg-blue-900/20 px-2.5 py-1 rounded">Risk Engineering</span>
+                    <div class="flex gap-4 text-xs">
+                        <a href="https://github.com" target="_blank" class="text-blue-400 hover:underline">Fraud Repo ↗</a>
+                        <a href="https://github.com" target="_blank" class="text-blue-400 hover:underline">Credit Risk Repo ↗</a>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Financial Risk Mitigation & High-Skew Class Anomaly Core</h3>
+                <p class="text-gray-400 mt-2 leading-relaxed">Built predictive risk workflows to handle severe data imbalance (less than 1% target anomalies). Prioritized complex F1-Score metrics and Precision-Recall modeling over generic accuracy checks to secure transaction environments without introducing subscriber friction.</p>
+            </div>
 
----
-***
+            <!-- Card 3: Logistics Optimization -->
+            <div class="bg-gray-900/40 border border-gray-800/80 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-900/20 px-2.5 py-1 rounded">Operations</span>
+                    <a href="https://github.com" target="_blank" class="text-xs text-blue-400 hover:underline">View Repository ↗</a>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Supply Chain & Constrained Logistics Fleet Route Optimizer</h3>
+                <p class="text-gray-400 mt-2 leading-relaxed">Formulated an operational route planner mapping complex delivery variables (such as coordinate weight parameters, vehicle capacities, and drop windows). Safely downsizes transportation overhead and increases fleet dispatch certainty.</p>
+            </div>
 
-## ─── ADVANCED ANALYTICS PORTFOLIO ───
+        </div>
+    </main>
 
-### 📈 1. Sales Performance & Predictive Customer Analytics
-*   **Projects:** [Customer Spend Prediction](https://github.com/Fisayo-Ajayi/customer-spend-prediction/tree/main/Project) | [Sales Performance Analytics](https://github.com/Fisayo-Ajayi/Sales-Performance-Customer-Analytics)
-*   **Core Stack:** Python, Linear Regression, Business Intelligence (BI) Dashboards
-*   **The Business Problem:** Marketing teams struggle to accurately allocate ad spend without a clear view of customer lifetime value (LTV) and multi-region sales performance.
-*   **The Approach:** Modeled consumer spending patterns using linear regression while structuring the underlying multi-dimensional relational tables for executive dashboard consumption.
-*   **Business Impact:** Empowers leadership with forward-looking revenue forecasts to back high-growth marketing decisions.
-
-#### 📊 Dashboards:
-<p align="center">
-  <img src="https://postimg.cc" width="100%" alt="Sales Performance Overview Dashboard">
-</p>
-
-<p align="center">
-  <img src="https://postimg.cc" width="100%" alt="Product and Customer Insights Dashboard">
-</p>
-
-
-
-***
-
-### 🛡️ 2. Financial Risk & Class-Imbalance Fraud Mitigation
-*   **Projects:** [Credit Card Fraud Detection](https://github.com/Fisayo-Ajayi/credit-card-fraud-detection) | [Loan Default Risk Model]([https://github.com](https://github.com/Fisayo-Ajayi/loan-default-risk-model))
-*   **Core Stack:** Python (Pandas, Scikit-Learn), Imbalanced Classification, Advanced Resampling
-*   **The Business Problem:** Financial platforms face heavy profit leakage from fraud and bad loan defaults, but identifying them is difficult due to highly skewed data distributions (less than 1% fraud instances).
-*   **The Approach:** Built predictive pipelines engineered specifically for high-skew class imbalances. Prioritized **Precision-Recall (PR) Curves and F1-Scores** over standard accuracy to capture anomalies without disrupting legitimate customers.
-*   **Business Impact:** Provides credit scoring teams with an automated risk framework to preserve capital and reduce fraud losses.
-
-***
-
-### 🚚 3. Supply Chain & Constrained Route Optimization
-*   **Project:** [Delivery Route Optimization](https://github.com/Fisayo-Ajayi/delivery-route-optimization)
-*   **Core Stack:** Python, Constrained Operational Modeling, Geographic Variable Processing
-*   **The Business Problem:** Inefficient last-mile dispatch schedules lead to ballooning fuel expenses, delivery delays, and operational bottlenecks.
-*   **The Approach:** Engineered a route optimizer processing multi-layered constraints (such as vehicle capacity limits, specific delivery time windows, and coordinate metrics).
-*   **Business Impact:** Lowers supply chain fleet overhead and improves delivery window reliability for operations managers.
-
-***
-
----
-
-## ─── TECHNICAL SKILLS ───
-*   **Programming:** Python (Pandas, NumPy, Scikit-Learn, Seaborn), SQL
-*   **Analytics:** Class Imbalance Remediation, Constrained Optimization, Regression Modeling
-*   **Data Visualization:** Microsoft Power BI, Tableau Public, NovyPro Dashboard Hosting
-
-
-
-## ✉️ Get In Touch
-<form action="https://web3forms.com" method="POST">
-    <input type="hidden" name="access_key" value="fbbe4a79-bf79-48ae-b3d0-a1684e8e3d45">
-    <input type="text" name="name" placeholder="Your Name" required style="width:100%; margin-bottom:10px; padding:8px;">
-    <input type="email" name="email" placeholder="Your Email" required style="width:100%; margin-bottom:10px; padding:8px;">
-    <textarea name="message" placeholder="Your Message" required style="width:100%; height:150px; margin-bottom:10px; padding:8px;"></textarea>
-    <button type="submit" style="padding:10px 20px; background-color:#007acc; color:white; border:none; cursor:pointer;">Send Message</button>
-</form>
-
+    <!-- ✉️ Functional Contact Form Container -->
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-12 border-t border-gray-850">
+        <div class="max-w-xl mx-auto bg-gray-900/30 border border-gray-800 p-6 md:p-8 rounded-2xl">
+            <h2 class="text-2xl font-bold text-white mb-2">Get In Touch</h2>
+            <p class="text-sm text-gray-400 mb-6">Drop a secure message directly to my corporate email queue regarding project opportunities or technical analytical collaboration.</p>
+            
+            <!-- Safe, secure endpoint tracking via Web3Forms -->
+            <form action="https://web3forms.com" method="POST" class="space-y-4">
+                <!-- Replace the value string below with your direct key from web3forms.com later if needed -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                
+                <div>
+                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Your Name</label>
+                    <input type="text" name="name" required class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Email Address</label>
+                    <input type="email" name="email" required class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Message Description</label>
+                    <textarea name="message" required rows="4" class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500 transition resize-none"></textarea>
+                </div>
+                
