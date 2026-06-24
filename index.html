@@ -3,121 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisayo Ajayi | Data Analytics Portfolio</title>
-    <!-- Modern Styling Engine -->
-    <script src="https://tailwindcss.com"></script>
-    <link href="https://googleapis.com" rel="stylesheet">
+    <title>Fisayo Ajayi | Data Portfolio</title>
     <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f8fafc; color: #334155; }
-        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(12px); border: 1px solid #e2e8f0; }
+        /* Native, Self-Contained High-End Styling Sheets */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background-color: #f8fafc; color: #334155; margin: 0; padding: 40px 20px; }
+        .wrapper { max-width: 850px; margin: 0 auto; background-color: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        header { border-bottom: 2px solid #f1f5f9; padding-bottom: 24px; margin-bottom: 32px; }
+        h1 { font-size: 36px; font-weight: 800; color: #0f172a; margin: 0 0 6px 0; letter-spacing: -0.025em; }
+        .title-sub { font-size: 18px; font-weight: 600; color: #2563eb; margin: 0 0 16px 0; }
+        .links { font-size: 14px; color: #64748b; margin: 0 0 20px 0; font-weight: 500; }
+        .links a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        .links a:hover { text-decoration: underline; }
+        h2 { font-size: 20px; font-weight: 700; color: #0f172a; margin: 40px 0 20px 0; padding-left: 12px; border-left: 4px solid #2563eb; text-transform: uppercase; letter-spacing: 0.05em; }
+        .card { margin-bottom: 32px; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; }
+        .card-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+        .card-title { font-size: 18px; font-weight: 700; color: #0f172a; margin: 0; }
+        .card-link { color: #2563eb; text-decoration: none; font-size: 13px; font-weight: 600; }
+        .card-link:hover { text-decoration: underline; }
+        .desc { font-size: 14px; color: #475569; line-height: 1.6; margin: 0 0 16px 0; }
+        .stack-box { font-size: 13px; color: #0f172a; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 14px; font-weight: 500; }
+        .img-container { display: flex; flex-direction: column; gap: 16px; margin-top: 20px; }
+        .dashboard-img { width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); display: block; }
+        .toolkit-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; font-size: 14px; }
+        .toolkit-item { background-color: #f8fafc; padding: 14px; border-radius: 8px; border: 1px solid #e2e8f0; }
+        .toolkit-label { color: #0f172a; display: block; font-weight: 700; margin-bottom: 4px; }
+        form { background-color: #f8fafc; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; margin-top: 20px; }
+        .field { margin-bottom: 16px; }
+        .label { display: block; font-size: 11px; font-weight: 700; margin-bottom: 6px; text-transform: uppercase; color: #475569; letter-spacing: 0.05em; }
+        input, textarea { width: 100%; padding: 10px 12px; background-color: #ffffff; color: #1e293b; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; box-sizing: border-box; font-family: inherit; }
+        textarea { height: 100px; resize: none; }
+        input:focus, textarea:focus { outline: none; border-color: #2563eb; }
+        button { padding: 12px 24px; background-color: #2563eb; color: #ffffff; border: none; border-radius: 6px; cursor: pointer; font-weight: 700; width: 100%; font-size: 14px; }
+        button:hover { background-color: #1d4ed8; }
     </style>
 </head>
-<body class="antialiased selection:bg-blue-500 selection:text-white px-4 py-12 md:py-20">
+<body>
 
-    <div class="max-w-4xl mx-auto space-y-12">
-        
-        <!-- 🚀 Clean Executive Header Card -->
-        <header class="glass-card rounded-2xl p-6 md:p-10 shadow-sm">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-200 pb-6 mb-6">
-                <div>
-                    <h1 class="text-4xl font-extrabold tracking-tight text-slate-900">Fisayo Ajayi</h1>
-                    <p class="text-lg text-blue-600 font-semibold mt-1">Data Analyst & Analytics Engineer</p>
-                    <p class="text-xs text-slate-400 mt-1">📍 Lagos, Nigeria</p>
-                </div>
-                <div class="flex flex-wrap gap-3">
-                    <a href="https://linkedin.com" target="_blank" class="px-4 py-2 text-xs bg-slate-100 text-slate-700 font-medium rounded-lg hover:bg-slate-200 transition">🔗 LinkedIn</a>
-                    <a href="https://githubusercontent.com" target="_blank" class="px-4 py-2 text-xs bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-500 transition shadow-sm shadow-blue-500/20">📥 Download Resume</a>
-                </div>
+<div class="wrapper">
+
+    <!-- 🚀 Clean Executive Header -->
+    <header>
+        <h1>Fisayo Ajayi</h1>
+        <div class="title-sub">Data Analyst & Analytics Engineer</div>
+        <div class="links">
+            📍 Lagos, Nigeria &nbsp;|&nbsp; 
+            <a href="https://linkedin.com" target="_blank">LinkedIn Profile</a> &nbsp;|&nbsp; 
+            <a href="https://githubusercontent.com" target="_blank">Download Resume (PDF)</a>
+        </div>
+        <p class="summary-text" style="font-size: 15px; color: #475569; margin: 0; line-height: 1.6;">
+            Results-driven Data Analyst specializing in end-to-end analytics engineering, predictive modeling, and business intelligence. Expert in balancing highly skewed risk datasets and building high-impact dashboards.
+        </p>
+    </header>
+
+    <!-- 📊 Advanced Project Workspaces -->
+    <main>
+        <h2>Featured Analytics Projects</h2>
+
+        <!-- Project 1: Sales Performance -->
+        <section class="card">
+            <div class="card-header">
+                <div class="card-title">1. Sales Performance & Customer Analytics</div>
+                <a href="https://github.com" target="_blank" class="card-link">View Repository ↗</a>
             </div>
-            <p class="text-slate-600 leading-relaxed text-sm md:text-base">
-                Results-driven Data Analyst specializing in end-to-end analytics engineering, predictive modeling, and business intelligence. Proven expertise in resolving critical class imbalances in financial risk environments, designing multi-dimensional relational schemas, and deploying enterprise-level dashboards that map cross-channel profitability and optimize operational fleet efficiency.
+            <p class="desc">
+                Built an enterprise relational database schema tracking cross-channel transactions and multi-region margins. Transformed raw backend tables into dynamic dashboards to optimize ad spend and forecast customer lifetime value (LTV).
             </p>
-        </header>
-
-        <!-- 📊 Enterprise Analytics Portfolio Grid -->
-        <main class="space-y-8">
-            <h2 class="text-xl font-bold uppercase tracking-wider text-slate-900 border-l-4 border-blue-600 pl-3">Featured Analytics Suites</h2>
-
-            <!-- Card 1: Power BI Layout with Cloud Embed Backups -->
-            <div class="glass-card rounded-2xl p-6 md:p-8 shadow-sm space-y-6">
-                <div class="flex justify-between items-start gap-4">
-                    <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-blue-600 bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100">Business Intelligence</span>
-                        <h3 class="text-xl font-bold text-slate-900 mt-3">Sales Performance & Executive Revenue Analytics</h3>
-                    </div>
-                    <a href="https://github.com" target="_blank" class="text-xs text-blue-600 font-medium hover:underline shrink-0">View Blueprint ↗</a>
-                </div>
-                <p class="text-sm text-slate-600 leading-relaxed">Structured an enterprise data warehouse schema tracking global transactions and regional margin health. Synthesized raw backend columns into dual-layer operational viewports to monitor capital leakage and sales execution anomalies.</p>
-                <div class="text-xs font-semibold text-slate-700 bg-slate-50 border border-slate-100 rounded-lg p-3">
-                    🚀 Core Tech Stack: Python, Linear Regression, Microsoft Power BI, Relational Schema Architecture
-                </div>
-
-                <!-- Live Dashboards Rendering -->
-                <div class="space-y-4 pt-2">
-                    <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider">🖥️ Dashboard Viewports</h4>
-                    <div class="grid grid-cols-1 gap-6">
-                        <img src="https://postimg.cc" class="w-full rounded-xl border border-slate-200 shadow-sm" alt="Sales Performance Overview Dashboard">
-                        <img src="https://postimg.cc" class="w-full rounded-xl border border-slate-200 shadow-sm" alt="Product and Customer Insights Dashboard">
-                    </div>
-                </div>
+            <div class="stack-box">
+                Core Stack Deployed: Python, Linear Regression, Microsoft Power BI, Star-Schema Modeling
             </div>
-
-            <!-- Card 2: Risk Analytics Framework -->
-            <div class="glass-card rounded-2xl p-6 md:p-8 shadow-sm space-y-4">
-                <div class="flex justify-between items-start gap-4">
-                    <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Risk Engineering</span>
-                        <h3 class="text-xl font-bold text-slate-900 mt-3">Financial Fraud Mitigation & High-Skew Anomaly Core</h3>
-                    </div>
-                    <div class="flex gap-3 text-xs shrink-0 font-medium">
-                        <a href="https://github.com" target="_blank" class="text-blue-600 hover:underline">Fraud ↗</a>
-                        <a href="https://github.com" target="_blank" class="text-blue-600 hover:underline">Credit Risk ↗</a>
-                    </div>
-                </div>
-                <p class="text-sm text-slate-600 leading-relaxed">Programmed classification pipelines managing heavy distribution skew (genuine transaction transactions vastly outnumber fraud). Leveraged Precision-Recall adjustments and F1 score criteria to flag default profiles cleanly without disrupting legitimate transaction flows.</p>
-                <div class="text-xs font-semibold text-slate-700 bg-slate-50 border border-slate-100 rounded-lg p-3">
-                    🚀 Core Tech Stack: Python (Pandas, Scikit-Learn), Random Forests, Precision-Recall Curve Balancing
-                </div>
+            <div class="img-container">
+                <img src="https://postimg.cc" class="dashboard-img" alt="Sales Performance Overview Dashboard">
+                <img src="https://postimg.cc" class="dashboard-img" alt="Product and Customer Insights Dashboard">
             </div>
-
-            <!-- Card 3: Supply Chain Optimization -->
-            <div class="glass-card rounded-2xl p-6 md:p-8 shadow-sm space-y-4">
-                <div class="flex justify-between items-start gap-4">
-                    <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-100">Operational Research</span>
-                        <h3 class="text-xl font-bold text-slate-900 mt-3">Constrained Supply Chain Fleet Route Optimizer</h3>
-                    </div>
-                    <a href="https://github.com" target="_blank" class="text-xs text-blue-600 font-medium hover:underline shrink-0">Routing ↗</a>
-                </div>
-                <p class="text-sm text-slate-600 leading-relaxed">Formulated optimization models handling multi-tiered variable constraints (geographic coordinates, vehicle cargo volume capacities, and specific time windows) to systematically minimize last-mile dispatch overhead windows.</p>
-                <div class="text-xs font-semibold text-slate-700 bg-slate-50 border border-slate-100 rounded-lg p-3">
-                    🚀 Core Tech Stack: Python (SciPy, NumPy), Constrained Matrix Optimization, Location Parameter Weights
-                </div>
-            </div>
-        </main>
-
-        <!-- 🧪 Toolkit & Extra Pipeline Box -->
-        <section class="glass-card rounded-2xl p-6 md:p-8 shadow-sm space-y-4">
-            <h3 class="text-lg font-bold text-slate-900">🔬 Interdisciplinary Research Pipeline</h3>
-            <p class="text-sm text-slate-600 leading-relaxed">
-                Developed statistical modeling frameworks processing healthcare datasets to isolate critical biomarker risk indicators and assist early patient tracking metrics: 
-                <a href="https://github.com" target="_blank" class="text-blue-600 font-semibold hover:underline">Cancer Risk Biomarker Analysis Core ↗</a>
-            </p>
         </section>
 
-        <!-- ✉️ Secure Message Connection Intake Pipeline -->
-        <section id="contact" class="glass-card rounded-2xl p-6 md:p-8 shadow-sm">
-            <h3 class="text-xl font-bold text-slate-900">Initialize Operational Request</h3>
-            <p class="text-xs text-slate-400 mt-1 mb-6">Submit data architecture constraints or technical role parameters directly to my inbox.</p>
-            
-            <form action="https://web3forms.com" method="POST" class="space-y-4">
-                <input type="hidden" name="access_key" value="fbbe4a79-bf79-48ae-b3d0-a1684e8e3d45">
-                <div>
-                    <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">Identification / Name</label>
-                    <input type="text" name="name" required class="w-full bg-white border border-slate-200 rounded-lg px-4 py-2.5 text-sm text-slate-800 focus:outline-none focus:border-blue-500 transition">
+        <!-- Project 2: Risk Core -->
+        <section class="card">
+            <div class="card-header">
+                <div class="card-title">2. Financial Risk & Class-Imbalance Fraud Core</div>
+                <div style="display: flex; gap: 12px;">
+                    <a href="https://github.com" target="_blank" class="card-link">Fraud Repo ↗</a>
+                    <a href="https://github.com" target="_blank" class="card-link">Credit Repo ↗</a>
                 </div>
-                <div>
-                    <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">Corporate Email Address</label>
-                    <input type="email" name="email" required class="w-full bg-white border border-slate-200 rounded-lg px-4 py-2.5 text-sm text-slate-800 focus:outline-none focus:border-blue-500 transition">
-                </div>
-                <div>
+            </div>
+            <p class="desc">
+                Engineered robust predictive pipelines optimized specifically for severe class distribution skew (fraud cases representing less than 1% of transactions). Prioritized Precision-Recall AUC and F1-Scores over misleading standard accuracy metrics to catch threats safely without introducing customer friction.
+            </p>
+            <div class="stack-box">
+                Core Stack Deployed: Python (Pandas, Scikit-Learn), Supervised Classification, Advanced Resampling
+            </div>
+        </section>
+
+        <!-- Project 3: Route Optimization -->
+        <section class="card">
+            <div class="card-header">
+                <div class="card-title">3. Logistics Fleet & Constrained Route Optimization</div>
+                <a href="https://github.com" target="_blank" class="card-link">View Repository ↗</a>
+            </div>
+            <p class="desc">
+                Formulated an operational route planner to resolve last-mile supply chain overlaps. Deployed models tracking multi-tiered vehicle variable constraints simultaneously—including load volume limits, strict arrival windows, and spatial coordinate weights—to reduce overall fleet transit expenses.
+            </p>
+            <div class="stack-box">
+                Core Stack Deployed: Python (SciPy, NumPy), Operations Research, Spatial Variables Translation
+            </div>
+        </section>
+    </main>
+
+    <!-- 🛠️ Technical Tool Framework -->
+    <h2>Technical Toolkit</h2>
+    <div class="toolkit-grid">
+        <div class="toolkit-item">
+            <span class="toolkit-label">Languages & Scripts</span> SQL, Python (Pandas, NumPy)
+        </div>
+        <div class="toolkit-item">
+            <span class="toolkit-label">Analytics Skillset</span> Risk Modeling, Operations Research
+        </div>
+        <div class="toolkit-item">
+            <span class="toolkit-label">Business Intelligence</span> Power BI, Tableau, NovyPro
+        </div>
+    </div>
+    <p style="font-size: 14px; color: #64748b; margin: 16px 0 40px 0;">
+        🔬 <strong>Interdisciplinary Pipeline:</strong> <a href="https://github.com" target="_blank" style="color: #2563eb; text-decoration: none;">Cancer Risk Biomarker Analysis Core ↗</a>
+    </p>
+
+    <!-- ✉️ Operational Messaging Portal -->
+    <section id="contact">
+        <h2>Contact Connection Pipeline</h2>
+        <p style="font-size: 14px; color: #64748b; margin: 0 0 20px 0;">Submit project requirements or technical analytics opportunities directly to my inbox.</p>
+        
+        <form action="https://web3forms.com" method="POST">
+            <input type="hidden" name="access_key" value="fbbe4a79-bf79-48ae-b3d0-a1684e8e3d45">
+            <div class="field">
+                <label class="label">Full Name / Corporate Entity</label>
+                <input type="text" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="field">
+                <label class="label">Email Address</label>
+                <input type="email" name="email" placeholder="johndoe@company.com" required>
+            </div>
+            <div class="field">
+                <label class="label">Project Description</label>
+                <textarea name="message" placeholder="Provide details on analytical requirements or role parameters..." required></textarea>
+            </div>
+            <button type="submit">Dispatch Message Connection</button>
+        </form>
+    </section>
+
+</div>
+
+</body>
