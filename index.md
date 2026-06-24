@@ -3,127 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisayo Ajayi | Data Analyst & Engineer</title>
-    <!-- Modern Tailwind UI Script -->
+    <title>Fisayo Ajayi | Data Portfolio Matrix</title>
+    <!-- Tailwind CSS Engine -->
     <script src="https://tailwindcss.com"></script>
     <link href="https://googleapis.com" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #0b0f19; color: #f3f4f6; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; overflow-x: hidden; }
+        .glass-panel { background: rgba(17, 24, 39, 0.45); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+        /* Smooth Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #030712; }
+        ::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 99px; }
+        ::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
     </style>
 </head>
-<body class="antialiased selection:bg-blue-500 selection:text-white">
+<body class="antialiased relative selection:bg-blue-500 selection:text-white">
 
-    <!-- 🌐 Premium Navigation / Header Header -->
-    <header class="max-w-5xl mx-auto px-6 pt-12 pb-8 border-b border-gray-800">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <div>
-                <h1 class="text-4xl font-extrabold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500">Fisayo Ajayi</h1>
-                <p class="text-lg mt-2 text-gray-400 font-medium">Data Analyst & Analytics Engineer</p>
-                <p class="text-sm text-gray-500 mt-1">📍 Lagos, Nigeria</p>
-            </div>
-            <div class="flex flex-wrap gap-3">
-                <a href="YOUR_LINKEDIN_URL" class="px-4 py-2 text-sm bg-gray-900 border border-gray-800 text-gray-300 rounded-lg hover:bg-gray-800 hover:text-white transition">🔗 LinkedIn</a>
-                <a href="#contact" class="px-4 py-2 text-sm bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-500 transition shadow-lg shadow-blue-900/40">✉️ Contact Me</a>
-            </div>
-        </div>
+    <!-- 🌌 Interactive Particle Canvas Layer -->
+    <canvas id="particleCanvas" class="absolute top-0 left-0 w-full h-full pointer-events-none z-0 opacity-40"></canvas>
+
+    <div class="relative z-10 min-h-screen flex flex-col justify-between">
         
-        <!-- 🏷️ Automated Tech Badges -->
-        <div class="flex flex-wrap gap-2 mt-6">
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-900/30 text-blue-400 border border-blue-800/50">Python</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-900/30 text-indigo-400 border border-indigo-800/50">SQL</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-yellow-900/20 text-yellow-500 border border-yellow-800/30">Power BI</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-900/30 text-emerald-400 border border-emerald-800/50">Scikit-Learn</span>
-            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-purple-900/30 text-purple-400 border border-purple-800/50">Predictive Modeling</span>
-        </div>
-    </header>
-
-    <!-- 📄 Interactive Resume Document Viewer Section -->
-    <section class="max-w-5xl mx-auto px-6 py-8">
-        <h2 class="text-xl font-bold text-white mb-4 border-l-4 border-indigo-500 pl-3">Professional Resume</h2>
-        <div class="rounded-2xl overflow-hidden border border-gray-800 bg-gray-900/20 p-2">
-            <!-- Ensure your PDF is uploaded into your repository root folder with the name resume.pdf -->
-            <object data="/resume.pdf" type="application/pdf" width="100%" height="500px" class="rounded-xl">
-                <div class="p-6 text-center text-gray-400">
-                    <p class="mb-4">Your browser does not support embedded PDF views natively.</p>
-                    <a href="/resume.pdf" class="inline-block px-5 py-2.5 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition">📥 Download Resume PDF</a>
-                </div>
-            </object>
-        </div>
-    </section>
-
-    <!-- 📋 Core Work Section -->
-    <main class="max-w-5xl mx-auto px-6 py-8">
-        <h2 class="text-2xl font-bold text-white mb-8 border-l-4 border-blue-500 pl-3">Advanced Analytics Suites</h2>
-
-        <div class="grid grid-cols-1 gap-12">
-
-            <!-- Card 1: Power BI Business Showcase -->
-            <div class="bg-gray-900/40 border border-gray-800/80 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition">
-                <div class="flex items-center justify-between mb-4">
-                    <span class="text-xs font-bold uppercase tracking-wider text-yellow-500 bg-yellow-900/20 px-2.5 py-1 rounded">Business Intelligence</span>
-                    <a href="https://github.com" target="_blank" class="text-xs text-blue-400 hover:underline">View Repository ↗</a>
-                </div>
-                <h3 class="text-2xl font-bold text-white">Sales Performance & Executive Revenue Analytics</h3>
-                <p class="text-gray-400 mt-2 leading-relaxed">Engineered a relational enterprise database structure to evaluate cross-channel sales behavior and map multi-region profit margins. Translated raw tables into high-end executive reporting sheets to eliminate data tracking delays.</p>
-                
-                <!-- Dashboard Imagery Flex Grid -->
-                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div class="rounded-xl overflow-hidden border border-gray-800">
-                        <img src="https://postimg.cc" class="w-full object-cover hover:scale-105 transition duration-300" alt="Sales Overview">
-                    </div>
-                    <div class="rounded-xl overflow-hidden border border-gray-800">
-                        <img src="https://postimg.cc" class="w-full object-cover hover:scale-105 transition duration-300" alt="Customer Insights">
-                    </div>
+        <!-- 🌐 Premium Sticky Navigation Blur Header -->
+        <nav class="sticky top-0 z-50 w-full border-b border-gray-900 bg-[#030712]/75 backdrop-blur-md">
+            <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+                <span class="text-sm font-bold tracking-wider uppercase text-blue-500">FA // ANALYTICS</span>
+                <div class="flex gap-4">
+                    <a href="https://linkedin.com" target="_blank" class="text-xs text-gray-400 hover:text-white transition">LinkedIn</a>
+                    <a href="#contact" class="text-xs font-semibold px-3 py-1.5 bg-blue-600 hover:bg-blue-500 rounded-md text-white transition">Get In Touch</a>
                 </div>
             </div>
+        </nav>
 
-            <!-- Card 2: Risk Analytics -->
-            <div class="bg-gray-900/40 border border-gray-800/80 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition">
-                <div class="flex items-center justify-between mb-4">
-                    <span class="text-xs font-bold uppercase tracking-wider text-blue-400 bg-blue-900/20 px-2.5 py-1 rounded">Risk Engineering</span>
-                    <div class="flex gap-4 text-xs">
-                        <a href="https://github.com" target="_blank" class="text-blue-400 hover:underline">Fraud Repo ↗</a>
-                        <a href="https://github.com" target="_blank" class="text-blue-400 hover:underline">Credit Risk Repo ↗</a>
-                    </div>
-                </div>
-                <h3 class="text-2xl font-bold text-white">Financial Risk Mitigation & High-Skew Class Anomaly Core</h3>
-                <p class="text-gray-400 mt-2 leading-relaxed">Built predictive risk workflows to handle severe data imbalance (less than 1% target anomalies). Prioritized complex F1-Score metrics and Precision-Recall modeling over generic accuracy checks to secure transaction environments without introducing subscriber friction.</p>
-            </div>
-
-            <!-- Card 3: Logistics Optimization -->
-            <div class="bg-gray-900/40 border border-gray-800/80 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition">
-                <div class="flex items-center justify-between mb-4">
-                    <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-900/20 px-2.5 py-1 rounded">Operations</span>
-                    <a href="https://github.com" target="_blank" class="text-xs text-blue-400 hover:underline">View Repository ↗</a>
-                </div>
-                <h3 class="text-2xl font-bold text-white">Supply Chain & Constrained Logistics Fleet Route Optimizer</h3>
-                <p class="text-gray-400 mt-2 leading-relaxed">Formulated an operational route planner mapping complex delivery variables (such as coordinate weight parameters, vehicle capacities, and drop windows). Safely downsizes transportation overhead and increases fleet dispatch certainty.</p>
-            </div>
-
-        </div>
-    </main>
-
-    <!-- ✉️ Functional Contact Form Container -->
-    <section id="contact" class="max-w-5xl mx-auto px-6 py-12 border-t border-gray-850">
-        <div class="max-w-xl mx-auto bg-gray-900/30 border border-gray-800 p-6 md:p-8 rounded-2xl">
-            <h2 class="text-2xl font-bold text-white mb-2">Get In Touch</h2>
-            <p class="text-sm text-gray-400 mb-6">Drop a secure message directly to my corporate email queue regarding project opportunities or technical analytical collaboration.</p>
+        <!-- 🚀 Hero / Split Dynamic Presentation Container -->
+        <header class="max-w-6xl w-full mx-auto px-6 pt-16 pb-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             
-            <!-- Safe, secure endpoint tracking via Web3Forms -->
-            <form action="https://web3forms.com" method="POST" class="space-y-4">
-                <!-- Replace the value string below with your direct key from web3forms.com later if needed -->
-                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-                
+            <!-- Left Info Column -->
+            <div class="lg:col-span-7 space-y-6">
                 <div>
-                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Your Name</label>
-                    <input type="text" name="name" required class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500 transition">
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Email Address</label>
-                    <input type="email" name="email" required class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500 transition">
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Message Description</label>
-                    <textarea name="message" required rows="4" class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500 transition resize-none"></textarea>
+                    <h1 class="text-5xl font-extrabold tracking-tight text-white leading-tight">
+                        Fisayo Ajayi
+                    </h1>
+                    <!-- Dynamic Typing Text Subtitle -->
+                    <p class="text-xl mt-3 text-blue-400 font-semibold h-8">
+                        <span id="typingText"></span><span class="animate-pulse text-blue-500">|</span>
+                    </p>
+                    <p class="text-sm text-gray-500 mt-1 flex items-center gap-1.5">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span> Lagos, Nigeria
+                    </p>
                 </div>
                 
+                <p class="text-gray-400 leading-relaxed max-w-xl">
+                    Engineering reliable predictive data infrastructure. Specializing in resolving critical class imbalances within risk systems and converting warehouse models into high-end executive business intelligence views.
+                </p>
+
+                <!-- Core Stack Pills Wrapper -->
+                <div class="flex flex-wrap gap-2 pt-2">
+                    <span class="px-3 py-1 text-xs font-medium rounded-md bg-blue-950/40 border border-blue-900/60 text-blue-400">Python (Scikit-Learn)</span>
+                    <span class="px-3 py-1 text-xs font-medium rounded-md bg-indigo-950/40 border border-indigo-900/60 text-indigo-400">SQL Database Engineering</span>
+                    <span class="px-3 py-1 text-xs font-medium rounded-md bg-yellow-950/20 border border-yellow-900/30 text-yellow-500">Power BI / Tableau Developer</span>
+                    <span class="px-3 py-1 text-xs font-medium rounded-md bg-purple-950/40 border border-purple-900/60 text-purple-400">Constrained Logistics Routing</span>
+                </div>
+            </div>
+
+            <!-- Right Resume Document Column -->
+            <div class="lg:col-span-5 w-full">
+                <div class="glass-panel border border-gray-800/80 rounded-2xl p-2 shadow-2xl shadow-black/80">
+                    <object data="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf" type="application/pdf" width="100%" height="240px" class="rounded-xl">
+                        <div class="p-6 text-center text-gray-400 bg-gray-900/40 rounded-xl">
+                            <p class="text-xs mb-3">Professional Resume Document File</p>
+                            <a href="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf" class="inline-block px-4 py-2 bg-gray-800 text-xs font-semibold rounded-md hover:bg-gray-700 transition">📥 Download CV PDF</a>
+                        </div>
+                    </object>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- 📊 Bento Grid Case Studies Framework Area -->
+        <main class="max-w-6xl w-full mx-auto px-6 py-12">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <span class="w-1.5 h-6 bg-blue-500 rounded-full"></span> Advanced Analytics Suites
+            </h2>
+
+            <!-- Modern Card Matrix Stack -->
+            <div class="space-y-12">
+
+                <!-- Production Card 1: Power BI Layout -->
+                <div class="glass-panel border border-gray-800/80 rounded-3xl p-6 md:p-8 hover:border-blue-500/40 transition duration-500 group shadow-xl">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-yellow-500 bg-yellow-500/10 px-2.5 py-1 rounded-md border border-yellow-500/20">Business Intelligence Studio</span>
+                        <a href="https://github.com" target="_blank" class="text-xs text-gray-500 group-hover:text-blue-400 transition">Code Blueprint ↗</a>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-blue-300 transition duration-300">Sales Performance & Executive Revenue Architecture</h3>
+                    <p class="text-gray-400 mt-2 max-w-3xl leading-relaxed">Structured an enterprise data warehouse schema tracking global transactions and regional margin health. Synthesized raw backend columns into dual-layer operational viewports to monitor capital leakage and sales execution anomalies.</p>
+                    
+                    <!-- Seamless Screen Previews Grid Container -->
+                    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="rounded-2xl overflow-hidden border border-gray-900 shadow-2xl bg-gray-950">
+                            <img src="https://postimg.cc" class="w-full h-full object-cover group-hover:scale-[101%] transition duration-500" alt="Executive Performance View">
+                        </div>
+                        <div class="rounded-2xl overflow-hidden border border-gray-900 shadow-2xl bg-gray-950">
+                            <img src="https://postimg.cc" class="w-full h-full object-cover group-hover:scale-[101%] transition duration-500" alt="Product Insight Dashboard">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2-Column Layout Grid for Risk & Logistics Frameworks -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <!-- Production Card 2: Imbalanced Risk Engine -->
+                    <div class="glass-panel border border-gray-800/80 rounded-3xl p-6 md:p-8 hover:border-indigo-500/40 transition duration-500 group flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">Risk Modeling</span>
+                                <div class="flex gap-3 text-xs text-gray-500">
+                                    <a href="https://github.com" target="_blank" class="hover:text-indigo-400">Fraud ↗</a>
+                                    <a href="https://github.com" target="_blank" class="hover:text-indigo-400">Credit ↗</a>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-indigo-300 transition">Financial Fraud Mitigation Core</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed">Programmed classification pipelines managing heavy distribution skew (genuine transaction transactions vastly outnumber fraud). Leveraged Precision-Recall adjustments and F1 score criteria to flag default profiles cleanly.</p>
+                        </div>
+                    </div>
+
+                    <!-- Production Card 3: Optimization Operations -->
+                    <div class="glass-panel border border-gray-800/80 rounded-3xl p-6 md:p-8 hover:border-emerald-500/40 transition duration-500 group flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[10px] font-bold uppercase tracking-widest text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-md border border-emerald-500/20">Operational Systems</span>
