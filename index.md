@@ -6,6 +6,12 @@ title: Home
 ---
 # Hi, I'm Fisayo Ajayi | Data Analyst & Analytics Engineer
 📍 Lagos, Nigeria | [🔗 LinkedIn](.linkedin.com/in/fisayo-ajayi-144b01237) | [✉️ Email](fisayobanjiajayi@example.com)
+
+![Python](https://shields.io)
+![SQL](https://shields.io)
+![PowerBI](https://shields.io)
+![Git](https://shields.io)
+
 ## 📄 Professional Resume
 
 <p align="center">
