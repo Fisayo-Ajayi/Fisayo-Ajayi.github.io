@@ -20,9 +20,9 @@ Data Analyst specializing in turning raw enterprise data into actionable busines
 
 #### 📊 Dashboard Views:
 #### 📊 Dashboard Views:
-<img src="/overview.png" width="100%" alt="Sales Overview Dashboard">
+<img src="https://github.io" width="100%" alt="Sales Overview Dashboard">
 
-<img src="/insights.png" width="100%" alt="Customer Insights Dashboard">
+<img src="https://github.io" width="100%" alt="Customer Insights Dashboard">
 
 
 ***
