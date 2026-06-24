@@ -4,9 +4,17 @@ title: Fisayo Ajayi Portfolio
 # Hi, I'm Fisayo Ajayi | Data Analyst & Analytics Engineer
 📍 Lagos, Nigeria | [🔗 LinkedIn](.linkedin.com/in/fisayo-ajayi-144b01237) | [✉️ Email](fisayobanjiajayi@example.com)
 ## 📄 Professional Resume
+
+<p align="center">
+  <a href="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf" target="_blank" style="background-color: #0076db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px;">
+    🔓 Click Here to Open Resume in New Tab
+  </a>
+</p>
+
 <object data="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf" type="application/pdf" width="100%" height="800px">
-  <p>Your browser doesn't support embedded PDFs. <a href="/Fisayo_Olawale_Ajayi_Data_Analyst_Resume.pdf">Click here to download and view my resume.</a></p>
+  <p align="center">Mobile browser detected. Please use the button above to view and download my professional resume.</p>
 </object>
+
 
 Data Analyst specializing in turning raw enterprise data into actionable business revenue. Expert at building predictive risk engines, handling complex class imbalances, and optimizing fleet logistics.
 
