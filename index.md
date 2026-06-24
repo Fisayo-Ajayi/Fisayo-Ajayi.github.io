@@ -22,9 +22,9 @@ Built an enterprise relational database schema tracking cross-channel transactio
 *   **Source Framework:** [Sales-Performance-Customer-Analytics Repository ↗](https://github.com)
 
 #### 🖥️ Live Dashboard Viewports:
-![Sales Performance Overview Dashboard](https://postimg.cc)
+![Sales Performance Overview Dashboard](./overview.png)
 
-![Product and Customer Insights Dashboard](https://postimg.cc)
+![Product and Customer Insights Dashboard](./insights.png)
 
 ---
 
