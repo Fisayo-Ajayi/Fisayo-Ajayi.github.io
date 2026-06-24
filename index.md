@@ -18,6 +18,8 @@ Data Analyst specializing in turning raw enterprise data into actionable busines
 *   **The Approach:** Modeled consumer spending patterns using linear regression while structuring the underlying multi-dimensional relational tables for executive dashboard consumption.
 *   **Business Impact:** Empowers leadership with forward-looking revenue forecasts to back high-growth marketing decisions.
 
+![Customer and Product Insights Dashboard](https://githubusercontent.com)
+
 ***
 
 ### 🛡️ 2. Financial Risk & Class-Imbalance Fraud Mitigation
