@@ -70,3 +70,15 @@ Data Analyst specializing in turning raw enterprise data into actionable busines
 *   **Programming:** Python (Pandas, NumPy, Scikit-Learn, Seaborn), SQL
 *   **Analytics:** Class Imbalance Remediation, Constrained Optimization, Regression Modeling
 *   **Data Visualization:** Microsoft Power BI, Tableau Public, NovyPro Dashboard Hosting
+
+
+
+## ✉️ Get In Touch
+<form action="https://web3forms.com" method="POST">
+    <input type="hidden" name="access_key" value="fbbe4a79-bf79-48ae-b3d0-a1684e8e3d45">
+    <input type="text" name="name" placeholder="Your Name" required style="width:100%; margin-bottom:10px; padding:8px;">
+    <input type="email" name="email" placeholder="Your Email" required style="width:100%; margin-bottom:10px; padding:8px;">
+    <textarea name="message" placeholder="Your Message" required style="width:100%; height:150px; margin-bottom:10px; padding:8px;"></textarea>
+    <button type="submit" style="padding:10px 20px; background-color:#007acc; color:white; border:none; cursor:pointer;">Send Message</button>
+</form>
+
