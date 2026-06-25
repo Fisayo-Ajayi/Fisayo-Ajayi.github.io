@@ -21,8 +21,21 @@
         .card-link:hover { text-decoration: underline; }
         .desc { font-size: 14px; color: #475569; line-height: 1.6; margin: 0 0 16px 0; }
         .stack-box { font-size: 13px; color: #0f172a; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 14px; font-weight: 500; }
-        .img-container { display: flex; flex-direction: column; gap: 20px; margin-top: 20px; }
-        .dashboard-img { width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); display: block; height: auto; }
+        
+        /* 📊 CSS Concept Analytics Dashboard Layout */
+        .analytics-container { background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .analytics-title { font-size: 12px; font-weight: 700; uppercase; tracking: 0.05em; color: #64748b; margin-bottom: 12px; text-transform: uppercase; border-bottom: 1px dashed #e2e8f0; padding-bottom: 6px; }
+        .kpi-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+        .kpi-box { background-color: #f8fafc; border: 1px solid #e2e8f0; padding: 10px; border-radius: 6px; text-align: center; }
+        .kpi-val { font-size: 16px; font-weight: 700; color: #0f172a; }
+        .kpi-lbl { font-size: 10px; color: #64748b; text-transform: uppercase; font-weight: 600; margin-top: 2px; }
+        .chart-row { display: flex; flex-direction: column; gap: 8px; font-size: 12px; }
+        .bar-group { display: flex; align-items: center; gap: 8px; }
+        .bar-lbl { width: 100px; font-weight: 500; color: #475569; }
+        .bar-outer { flex-grow: 1; background-color: #f1f5f9; height: 12px; border-radius: 3px; overflow: hidden; }
+        .bar-inner { background-color: #2563eb; height: 100%; border-radius: 3px; }
+        .bar-val { width: 45px; text-align: right; font-weight: 600; color: #0f172a; }
+
         .toolkit-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; font-size: 14px; }
         .toolkit-item { background-color: #f8fafc; padding: 14px; border-radius: 8px; border: 1px solid #e2e8f0; }
         .toolkit-label { color: #0f172a; display: block; font-weight: 700; margin-bottom: 4px; }
@@ -70,10 +83,50 @@
             <div class="stack-box">
                 Core Stack Deployed: Python, Linear Regression, Microsoft Power BI, Star-Schema Modeling
             </div>
-            <!-- 🖥️ Bulletproof Direct Image Paths Deployed -->
-            <div class="img-container">
-                <img src="https://githubusercontent.com" class="dashboard-img" alt="Sales Performance Overview Dashboard">
-                <img src="https://githubusercontent.com" class="dashboard-img" alt="Product and Customer Insights Dashboard">
+
+            <!-- 📊 Embedded Text-Based Analytical Concept Display -->
+            <div class="analytics-container">
+                <div class="analytics-title">📊 Executive Sales & Margin Analysis Core (Concept View)</div>
+                
+                <!-- KPI Snapshot Matrix -->
+                <div class="kpi-row">
+                    <div class="kpi-box">
+                        <div class="kpi-val">$245.8K</div>
+                        <div class="kpi-lbl">Gross Sales</div>
+                    </div>
+                    <div class="kpi-box">
+                        <div class="kpi-val">24.2%</div>
+                        <div class="kpi-lbl">Net Margin</div>
+                    </div>
+                    <div class="kpi-box">
+                        <div class="kpi-val">$59.4K</div>
+                        <div class="kpi-lbl">Net Profit</div>
+                    </div>
+                </div>
+
+                <!-- Regional Yield Performance Breakdown Charts -->
+                <div class="chart-row">
+                    <div class="bar-group">
+                        <div class="bar-lbl">North Region</div>
+                        <div class="bar-outer"><div class="bar-inner" style="width: 85%;"></div></div>
+                        <div class="bar-val">$92K</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-lbl">West Region</div>
+                        <div class="bar-outer"><div class="bar-inner" style="width: 65%; background-color: #3b82f6;"></div></div>
+                        <div class="bar-val">$71K</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-lbl">East Region</div>
+                        <div class="bar-outer"><div class="bar-inner" style="width: 48%; background-color: #60a5fa;"></div></div>
+                        <div class="bar-val">$52K</div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-lbl">South Region</div>
+                        <div class="bar-outer"><div class="bar-inner" style="width: 28%; background-color: #93c5fd;"></div></div>
+                        <div class="bar-val">$30K</div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -92,58 +145,3 @@
             <div class="stack-box">
                 Core Stack Deployed: Python (Pandas, Scikit-Learn), Supervised Classification, Advanced Resampling
             </div>
-        </section>
-
-        <!-- Project 3 -->
-        <section class="card">
-            <div class="card-header">
-                <div class="card-title">3. Logistics Fleet & Constrained Route Optimization</div>
-                <a href="https://github.com" target="_blank" class="card-link">View Repository ↗</a>
-            </div>
-            <p class="desc">
-                Formulated an operational route planner to resolve last-mile supply chain overlaps. Deployed models tracking multi-tiered vehicle variable constraints simultaneously—including load volume limits, strict arrival windows, and spatial coordinate weights—to reduce overall fleet transit expenses.
-            </p>
-            <div class="stack-box">
-                Core Stack Deployed: Python (SciPy, NumPy), Operations Research, Spatial Variables Translation
-            </div>
-        </section>
-    </main>
-
-    <!-- Technical Tool Framework -->
-    <h2>Technical Toolkit</h2>
-    <div class="toolkit-grid">
-        <div class="toolkit-item">
-            <span class="toolkit-label">Languages & Scripts</span> SQL, Python (Pandas, NumPy)
-        </div>
-        <div class="toolkit-item">
-            <span class="toolkit-label">Analytics Skillset</span> Risk Modeling, Operations Research
-        </div>
-        <div class="toolkit-item">
-            <span class="toolkit-label">Business Intelligence</span> Power BI, Tableau, NovyPro
-        </div>
-    </div>
-    <p style="font-size: 14px; color: #64748b; margin: 16px 0 40px 0;">
-        🔬 <strong>Interdisciplinary Pipeline:</strong> <a href="https://github.com" target="_blank" style="color: #2563eb; text-decoration: none;">Cancer Risk Biomarker Analysis Core ↗</a>
-    </p>
-
-    <!-- Message Portal -->
-    <section id="contact">
-        <h2>Contact Connection Pipeline</h2>
-        <p style="font-size: 14px; color: #64748b; margin: 0 0 20px 0;">Submit project requirements or technical analytics opportunities directly to my inbox.</p>
-        
-        <form action="https://web3forms.com" method="POST">
-            <input type="hidden" name="access_key" value="fbbe4a79-bf79-48ae-b3d0-a1684e8e3d45">
-            <div class="field">
-                <label class="label">Full Name / Corporate Entity</label>
-                <input type="text" name="name" placeholder="John Doe" required>
-            </div>
-            <div class="field">
-                <label class="label">Email Address</label>
-                <input type="email" name="email" placeholder="johndoe@company.com" required>
-            </div>
-            <div class="field">
-                <label class="label">Project Description</label>
-                <textarea name="message" placeholder="Provide details on analytical requirements or role parameters..." required></textarea>
-            </div>
-            <button type="submit">Dispatch Message Connection</button>
-        </form>
